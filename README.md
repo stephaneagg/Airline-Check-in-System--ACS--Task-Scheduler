@@ -32,35 +32,35 @@ Sample Input<br>
     58 7:0,10,30<br>
     59 8:0,11,50<br>
 
-Sample Output
-    A customer arrives: customer ID  1. 
-    A customer enters a queue: the queue ID  0, and length of the queue  1 
-    A clerk starts serving a customer: start time 0.20, the customer ID  1, the clerk ID 1. 
-    A customer arrives: customer ID  2. 
-    A customer enters a queue: the queue ID  0, and length of the queue  1 
-    A clerk starts serving a customer: start time 0.40, the customer ID  2, the clerk ID 2. 
-    A customer arrives: customer ID  3. 
-    A customer enters a queue: the queue ID  0, and length of the queue  1 
-    A clerk starts serving a customer: start time 0.50, the customer ID  3, the clerk ID 3. 
-    A customer arrives: customer ID  4. 
-    A customer enters a queue: the queue ID  1, and length of the queue  1 
-    A customer arrives: customer ID  5. 
-    A customer enters a queue: the queue ID  1, and length of the queue  2 
-    A clerk starts serving a customer: start time 0.70, the customer ID  5, the clerk ID 5. 
-    A clerk starts serving a customer: start time 0.70, the customer ID  4, the clerk ID 4. 
-    A customer arrives: customer ID  6. 
-    A customer enters a queue: the queue ID  1, and length of the queue  1 
-    A customer arrives: customer ID  7. 
-    A customer enters a queue: the queue ID  0, and length of the queue  1 
-    A clerk finishes serving a customer: end time 3.70, the customer ID  4, the clerk ID 4. 
-    A clerk starts serving a customer: start time 0.80, the customer ID  6, the clerk ID 4. 
-    A clerk finishes serving a customer: end time 4.70, the customer ID  5, the clerk ID 5. 
-    A clerk starts serving a customer: start time 1.00, the customer ID  7, the clerk ID 5. 
-    A clerk finishes serving a customer: end time 5.50, the customer ID  3, the clerk ID 3. 
-    A clerk finishes serving a customer: end time 6.20, the customer ID  1, the clerk ID 1. 
-    A clerk finishes serving a customer: end time 7.40, the customer ID  2, the clerk ID 2. 
-    A clerk finishes serving a customer: end time 7.70, the customer ID  7, the clerk ID 5. 
-    A clerk finishes serving a customer: end time 8.70, the customer ID  6, the clerk ID 4. 
-    The average waiting time for all customers in the system is: 0.943276 seconds. 
-    The average waiting time for all business-class customers is: 0.967180 seconds. 
-    The average waiting time for all economy-class customers is: 0.925347 seconds. 
+Sample Output<br>
+    A customer arrives: customer ID  1. <br>
+    A customer enters a queue: the queue ID  0, and length of the queue  1 <br>
+    A clerk starts serving a customer: start time 0.20, the customer ID  1, the clerk ID 1. <br>
+    A customer arrives: customer ID  2. <br>
+    A customer enters a queue: the queue ID  0, and length of the queue  1 <br>
+    A clerk starts serving a customer: start time 0.40, the customer ID  2, the clerk ID 2. <br>
+    A customer arrives: customer ID  3. <br>
+    A customer enters a queue: the queue ID  0, and length of the queue  1 <br>
+    A clerk starts serving a customer: start time 0.50, the customer ID  3, the clerk ID 3. <br>
+    A customer arrives: customer ID  4. <br>
+    A customer enters a queue: the queue ID  1, and length of the queue  1 <br>
+    A customer arrives: customer ID  5. <br>
+    A customer enters a queue: the queue ID  1, and length of the queue  2 <br>
+    A clerk starts serving a customer: start time 0.70, the customer ID  5, the clerk ID 5. <br>
+    A clerk starts serving a customer: start time 0.70, the customer ID  4, the clerk ID 4. <br>
+    A customer arrives: customer ID  6. <br>
+    A customer enters a queue: the queue ID  1, and length of the queue  1 <br>
+    A customer arrives: customer ID  7. <br>
+    A customer enters a queue: the queue ID  0, and length of the queue  1 <br>
+    A clerk finishes serving a customer: end time 3.70, the customer ID  4, the clerk ID 4. <br>
+    A clerk starts serving a customer: start time 0.80, the customer ID  6, the clerk ID 4. <br>
+    A clerk finishes serving a customer: end time 4.70, the customer ID  5, the clerk ID 5. <br>
+    A clerk starts serving a customer: start time 1.00, the customer ID  7, the clerk ID 5. <br>
+    A clerk finishes serving a customer: end time 5.50, the customer ID  3, the clerk ID 3. <br>
+    A clerk finishes serving a customer: end time 6.20, the customer ID  1, the clerk ID 1. <br>
+    A clerk finishes serving a customer: end time 7.40, the customer ID  2, the clerk ID 2. <br>
+    A clerk finishes serving a customer: end time 7.70, the customer ID  7, the clerk ID 5. <br>
+    A clerk finishes serving a customer: end time 8.70, the customer ID  6, the clerk ID 4. <br>
+    The average waiting time for all customers in the system is: 0.943276 seconds. <br>
+    The average waiting time for all business-class customers is: 0.967180 seconds. <br>
+    The average waiting time for all economy-class customers is: 0.925347 seconds. <br>
