@@ -7,6 +7,8 @@ General flow of ACS.c<br>
   5 "clerk" threads are initialized with the task of waiting until there is a customer to serve. When this happens the clerk will signal a customer and send it its clerk_id, then wait for the customer to finish being served.<br>
   i "customer" threads are initialized with the task of entering a queue and waiting for its arrival-time, then for a clerk thread to signal it. When a customer is signaled by a clerk, it will record the clerk id, its wait-time and then sleeps for its service time. After that it will exit the queue and signal its clerk to serve another customer<br>
 
+To compile code enter "make" in the terminal. <br>
+To run the executable enter ./ACS <inputfile> in the terminal.<br>
 
 Input File Format<br>
 The input file is a text file and has a simple format. The first line contains the total number of customers that will
