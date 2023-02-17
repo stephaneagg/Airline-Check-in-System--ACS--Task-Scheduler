@@ -1,5 +1,5 @@
 # Airline-Check-in-System--ACS--Task-Scheduler
-ACS is a multi-threaded task scheduler using the pthread library.
+ACS is a multi-threaded task scheduler written in C using the pthread library.
 
 This project was an assignment for CSC 360 Operating Systems intended to learn multi-threading in C
 
