@@ -1,36 +1,36 @@
-# Airline-Check-in-System--ACS--Task-Scheduler
-ACS is a multi-threaded task scheduler written in C using the pthread library.
+# Airline-Check-in-System--ACS--Task-Scheduler<br>
+ACS is a multi-threaded task scheduler written in C using the pthread library.<br>
 
-This project was an assignment for CSC 360 Operating Systems intended to learn multi-threading in C
+This project was an assignment for CSC 360 Operating Systems intended to learn multi-threading in C<br>
 
-General flow of ACS.c
-  5 "clerk" threads are initialized with the task of waiting until there is a customer to serve. When this happens the clerk will signal a customer and send it its clerk_id, then wait for the customer to finish being served.
-  i "customer" threads are initialized with the task of entering a queue and waiting for its arrival-time, then for a clerk thread to signal it. When a customer is signaled by a clerk, it will record the clerk id, its wait-time and then sleeps for its service time. After that it will exit the queue and signal its clerk to serve another customer
+General flow of ACS.c<br>
+  5 "clerk" threads are initialized with the task of waiting until there is a customer to serve. When this happens the clerk will signal a customer and send it its clerk_id, then wait for the customer to finish being served.<br>
+  i "customer" threads are initialized with the task of entering a queue and waiting for its arrival-time, then for a clerk thread to signal it. When a customer is signaled by a clerk, it will record the clerk id, its wait-time and then sleeps for its service time. After that it will exit the queue and signal its clerk to serve another customer<br>
 
 
-Input File Format
+Input File Format<br>
 The input file is a text file and has a simple format. The first line contains the total number of customers that will
-be simulated. After that, each line contains the information about a single customer, such that:
-    1. The first character specifies the unique ID of customers.
-    2. A colon(:) immediately follows the unique number of the customer.
+be simulated. After that, each line contains the information about a single customer, such that:<br>
+    1. The first character specifies the unique ID of customers.<br>
+    2. A colon(:) immediately follows the unique number of the customer.<br>
     3. Immediately following is an integer equal to either 1 (indicating the customer belongs to business class) or 0 
-        (indicating the customer belongs to economy class).
-    4. A comma(,) immediately follows the previous number.
-    5. Immediately following is an integer that indicates the arrival time of the customer.
-    6. A comma(,) immediately follows the previous number.
-    7. Immediately following is an integer that indicates the service time of the customer.
-    8. A newline (\n) ends a line.
+        (indicating the customer belongs to economy class).<br>
+    4. A comma(,) immediately follows the previous number.<br>
+    5. Immediately following is an integer that indicates the arrival time of the customer.<br>
+    6. A comma(,) immediately follows the previous number.<br>
+    7. Immediately following is an integer that indicates the service time of the customer.<br>
+    8. A newline (\n) ends a line.<br>
 
-Sample Input
-    8
-    52 1:0,2,60
-    53 2:0,4,70
-    54 3:0,5,50
-    55 4:1,7,30
-    56 5:1,7,40
-    57 6:1,8,50
-    58 7:0,10,30
-    59 8:0,11,50
+Sample Input<br>
+    8<br>
+    52 1:0,2,60<br>
+    53 2:0,4,70<br>
+    54 3:0,5,50<br>
+    55 4:1,7,30<br>
+    56 5:1,7,40<br>
+    57 6:1,8,50<br>
+    58 7:0,10,30<br>
+    59 8:0,11,50<br>
 
 Sample Output
     A customer arrives: customer ID  1. 
